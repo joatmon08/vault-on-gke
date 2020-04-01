@@ -12,7 +12,7 @@ terraform {
 
 module "vault" {
   source                      = "joatmon08/vaulthelm/google"
-  version                     = "0.4.0"
+  version                     = "0.5.0"
   project                     = var.project
   region                      = var.region
   kubernetes_cluster          = var.kubernetes_cluster
