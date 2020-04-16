@@ -1,13 +1,5 @@
 terraform {
   required_version = ">=0.12"
-  backend "remote" {
-    hostname     = "app.terraform.io"
-    organization = "hashicorp-team-da-beta"
-
-    workspaces {
-      name = "vault-on-gcp"
-    }
-  }
 }
 
 module "vault" {
